@@ -1,0 +1,38 @@
+# Ignore build directories
+/build/
+/bin/
+/out/
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore log files
+*.log
+
+# Ignore database files (if any temporary ones exist)
+*.sql~
+
+# Ignore IDE-specific files
+/.idea/
+/*.iml
+*.iws
+
+# Ignore NetBeans-specific files
+/nbproject/private/
+/build.xml
+/manifest.mf
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore JAR files if you rebuild them
+*.jar
+
+# Ignore user-specific settings
+*.user
